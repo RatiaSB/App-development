@@ -17,11 +17,11 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author user10
+ * @RatiaSB
  */
 public class Pract8 extends JFrame {
 
-    //Array to store 10 elements
+    
     private JLabel lblIndex = new JLabel("Enter index value: ");
     private JTextField txtIndex = new JTextField();
     private JTextField txtDisplay = new JTextField();
