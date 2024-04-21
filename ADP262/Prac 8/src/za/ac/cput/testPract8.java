@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author user10
+ * @author RatiaSB
  */
 public class testPract8 {
     public static void main(String[] args) {
