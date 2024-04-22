@@ -21,7 +21,8 @@ import javax.swing.JTextField;
  */
 public class Pract8 extends JFrame {
 
-    
+    // Declare Array values
+    String languages[] = {"English", "Xhosa", "Zulu", "Sotho", "Tswana", "Pedi", "Afrikaans", "Venda", "Tsonga", "Swati"};
     private JLabel lblIndex = new JLabel("Enter index value: ");
     private JTextField txtIndex = new JTextField();
     private JTextField txtDisplay = new JTextField();
@@ -49,17 +50,16 @@ public class Pract8 extends JFrame {
 
                 if (e.getSource() == btnShow) {
                     try{
-                        //String languages[] = {"English", "Xhosa", "Zulu", "Sotho", "Tswana", "Pedi", "Afrikaans", "Venda", "Tsonga", "Swati"};
-                        String arr[] = new String[10];
-                        arr[0] = "Apple";
                         int input = Integer.parseInt(txtIndex.getText());
                         
-                        for (int i = 0; i < arr.length; i++) {
-                         txtDisplay.setText((String)"Array index at position " + arr[input]);
+                        for (int i = 0; i < languages.length; i++) {
+                         txtDisplay.setText((String)"Array index at position " + input + " "+ languages[input]);
                             
                         }
                     } catch (ArrayIndexOutOfBoundsException ex) {
                         JOptionPane.showMessageDialog(null, "Enter the value from 0 to 9 \n"+ ex , "Error", JOptionPane.ERROR_MESSAGE);
+                    } catch(NumberFormatException nx) {
+                        JOptionPane.showMessageDialog(null, "Enter the numeric values \n"+ nx , "Error", JOptionPane.ERROR_MESSAGE);
                     }
 
 
