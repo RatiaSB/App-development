@@ -1,0 +1,2 @@
+Student Name   Student Number Qualification  Date of Birth  
+John Smith     24636578       BCom           19980328       
