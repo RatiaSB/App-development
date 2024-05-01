@@ -1,0 +1,3 @@
+Student Name   Student Number Qualification  Date of Birth  
+James Smith    24636579       Masters        19970429       
+John Smith     24636578       BCom           19980328       

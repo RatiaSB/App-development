@@ -1,0 +1,2 @@
+Student Name   Student Number Qualification  Date of Birth  
+James Smith    24636579       Masters        19970429       
