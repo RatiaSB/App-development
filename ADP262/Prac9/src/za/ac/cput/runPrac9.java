@@ -16,7 +16,7 @@ public class runPrac9 {
         Prac9 objGui = new Prac9();
         
         objGui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        objGui.setSize(700, 500);
+        objGui.setSize(650, 400);
         objGui.setVisible(true);
         objGui.setResizable(true);
     }
