@@ -5,10 +5,7 @@
 package za.ac.cput;
 
 import java.awt.BorderLayout;
-import java.awt.Component;
 import java.awt.GridLayout;
-import java.awt.PopupMenu;
-import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -24,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author user10
  */
-public class Prac7 extends JFrame {
+public class Prac9 extends JFrame {
 //Create Instances of JPanels
     private JPanel panelTop = new JPanel();
     private JPanel panelCenter = new JPanel();
@@ -57,7 +54,7 @@ public class Prac7 extends JFrame {
     private JScrollPane scrollPane = new JScrollPane(table);
     
     
-    public Prac7() {
+    public Prac9() {
         super("University Staff Application");
         //Construct JPanels
         panelTop.setLayout(new GridLayout(6,2,5,5));

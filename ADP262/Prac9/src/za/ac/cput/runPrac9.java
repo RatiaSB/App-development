@@ -4,17 +4,16 @@
  */
 package za.ac.cput;
 
-import java.awt.BorderLayout;
 import javax.swing.JFrame;
 
 /**
  *
  * @author user10
  */
-public class runPrac7 {
+public class runPrac9 {
 
     public static void main(String[] args) {
-        Prac7 objGui = new Prac7();
+        Prac9 objGui = new Prac9();
         
         objGui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         objGui.setSize(700, 500);
