@@ -6,10 +6,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Prac9FileHandler {
+    FileWriter fw;
+    BufferedWriter bw;
     public void  openFile(){
         try {
-            FileWriter fw = new FileWriter("OutputEmployees.txt");
-            BufferedWriter bw = new BufferedWriter(fw);
+            new FileWriter("OutputEmployees.txt");
+            new BufferedWriter(fw);
 
         }catch(IOException e){
             JOptionPane.showMessageDialog(null,"Error occurred...\n" + e,"Error",JOptionPane.ERROR_MESSAGE);
@@ -21,7 +23,13 @@ public class Prac9FileHandler {
 
     }
     public void closeFile(){
-        ;
+    try{
+        bw.close();
+    }catch(IOException fCe){
+        JOptionPane.showMessageDialog(null,"Error occurred...\n" + fCe,"Error",JOptionPane.ERROR_MESSAGE);
+        fCe.printStackTrace();
+
+    }
 
     }
 }
